@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgb(33, 32, 32);
+    color: #0d0c22;
+    display: flex;
+    align-items:center ;
+    justify-content:center;
+}
+
+.profile-card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px; 
+}
+
+img{
+    border: 8px solid whitesmoke;
+    position: relative;
+    width: 330px;
+    height: 550px;
+    object-fit: cover; 
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+   
+}
+
+.bottom-blur{
+    position: absolute;
+    bottom: -3.0%;
+    width: 330px;
+    height: 148px;
+    backdrop-filter: blur(2.3px);  /* Actual blur effect */
+    border-radius: 10px;
+}
+
+.card-name{
+    position: absolute;
+    top: 375px;
+    left: 37%;
+    transform: translateX(-50%);
+    display: flex;
+    color: #fff;
+    text-shadow: 4px 4px 5px brown;
+}
+
+.card-description{
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    color: #fff;
+}
+
+.card-title{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    color: #fff;
+}
+.card-title2{
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    color: palegoldenrod;
+}
+
+.stats{
+    position: absolute;
+    bottom: 10px;
+    left: 35%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.follow-btn{
+    position: absolute;
+    bottom: 5px;
+    left: 65%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.follow-btn:hover{
+    background-color: #fff;
+    transition: 0.9s ease;
+    transform: scale-X(1.05);
+}
