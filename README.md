@@ -17,11 +17,11 @@ Technologies Used
 - HTML5 – Structure of the card  
 - CSS3 – Styling and hover animations  
 
- View on GitHub Pages
+ View on GitHub Pages: 127.0.0.1:5500/profile.html
 
  How to Use...
 
-1. Clone the repository:
+1. Clone the repository: 
 
   (https://github.com/ThissDan/My-Profile-Card.git)
 
