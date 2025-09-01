@@ -17,7 +17,7 @@ Technologies Used
 - HTML5 – Structure of the card  
 - CSS3 – Styling and hover animations  
 
- View on GitHub Pages: http://127.0.0.1:5500/profile.html
+ View on Demo Live: http://127.0.0.1:5500/profile.html
 
  How to Use...
 
