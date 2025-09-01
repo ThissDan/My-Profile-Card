@@ -23,6 +23,6 @@ Technologies Used
 
 1. Clone the repository:
 
-  git clone https://github.com/yourusername/profile-card.git
+  (https://github.com/ThissDan/My-Profile-Card.git)
 
 2. Open index.html in your browser.
